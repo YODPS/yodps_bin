@@ -284,7 +284,8 @@ Binary project structure
 ├── yo_sender                 - Test sender node. Usually is used with test receiver
 ├── yo_serial                 - Serial port read/write node. Works with USB OBD2 gadget.
 ├── yo_v4l_in                 - V4L2 video frame acquisition node.
-└── yo_viewer                 - YOViewer. A customizable visualization for real-time systems, combining 3D rendering, video, maps, and structured data inspection in a single tool.
+├── yo_viewer                 - YOViewer. A customizable visualization for real-time systems, combining 3D rendering, video, maps, and structured data inspection in a single tool.
+└── yo_yolo                   - AI node for video frames processing. Detects objects using YOLO ML model and calculates relative depth with MiDaS model.
 ```
 Despite its seemingly simple design, the first version proved so reliable, fast, and efficient that it eventually displaced a commercial solution.
 
