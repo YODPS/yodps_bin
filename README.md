@@ -42,6 +42,11 @@ YODPS target platforms include on-road and off-road vehicles, drones, marine ves
 
 ## Screenshots 
 
+YODPS with AI. Integrated YOLO and MiDaS ML models into a YODPS node<br/>
+<a href="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_020.jpeg?raw=true" target="_blank">
+<img src="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_020.jpeg?raw=true" width="25%">
+</a>
+
 YODPS with a Gazebo (gz) simulator. Receiving front and rear cameras from a robo cart. <br/>
 <a href="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_019.jpeg?raw=true" target="_blank">
 <img src="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_019.jpeg?raw=true" width="25%">
