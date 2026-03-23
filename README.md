@@ -145,6 +145,11 @@ The beginning. Polyline Viewer</br>
 
 ## Videos
 
+**YOLO detection node and new plotter plugin** <br/>
+<a href="https://youtu.be/fOQK1OiRe68" target="_blank">
+<img src="https://img.youtube.com/vi/fOQK1OiRe68/hqdefault.jpg" width="25%">
+</a>
+
 **Overlay with a visibility mask** <br/>
 <a href="https://youtu.be/_Wg4lJOWCjg" target="_blank">
 <img src="https://img.youtube.com/vi/_Wg4lJOWCjg/hqdefault.jpg" width="25%">
