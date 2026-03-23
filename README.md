@@ -25,6 +25,12 @@
   - Image/Video format converters
   - Audio/MIDI via ALSA/JACK Audio Connection Kit
   
+**Data Processing / Perception**:
+  - Video-based object detection
+  - Monocular relative depth perception
+  - Seamless integration into live processing, recording, and replay workflows
+  - Modular architecture for adding new AI/ML and classical processing components
+  
 **Recorder/Player**:
   - Foxglove studio MCAP
   - ADTF DAT v2.0 file format (using `adtf_file` library) 
@@ -222,6 +228,8 @@ also demoing the simples way to visualize anything - jpeg stream + browser. <br/
 - [libjpeg-turbo](https://libjpeg-turbo.org/) — IJG (Independent JPEG Group) License, the Modified (3-clause) BSD License, and the zlib License
 - [RtMidi](https://github.com/thestk/rtmidi) — MIT License with the added feature that modifications be sent to the developer
 - [tinyxml2](https://github.com/leethomason/tinyxml2) — Zlib License
+- [implot](https://github.com/epezent/implot/tree/master) — MIT License
+
 ---
 ## 📜 License
 
@@ -285,6 +293,7 @@ Binary project structure
 ├── yo_serial                 - Serial port read/write node. Works with USB OBD2 gadget.
 ├── yo_v4l_in                 - V4L2 video frame acquisition node.
 ├── yo_viewer                 - YOViewer. A customizable visualization for real-time systems, combining 3D rendering, video, maps, and structured data inspection in a single tool.
+├── yo_vulkan                 - Vulkan parallel processing test node.
 └── yo_yolo                   - AI node for video frames processing. Detects objects using YOLO ML model and calculates relative depth with MiDaS model.
 ```
 Despite its seemingly simple design, the first version proved so reliable, fast, and efficient that it eventually displaced a commercial solution.
